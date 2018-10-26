@@ -13,5 +13,7 @@ Shall we preserve the edge weights while removing edges?
 
 
 ############## Update 2 ##################
-Using trained ranks and beta values from network A gives a lesser sigma score (0.97) on test set (network A)  than for network B (sigma=1.0)
-What is the general expectation ?
+
+Using trained ranks and beta values from network A gives a lesser sigma score (0.97) on test set of network A than for network B (sigma=1.0)
+where sigma calculated by the equation : (1-sum(Aij-(Aij+Aji)xprediction(i,j)))
+What is the expectation here ?
