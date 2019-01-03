@@ -13,6 +13,7 @@ Plots are provided at the bottom in each notebook to understand SpringRank's per
 
 The plot above shows the effect of using SpringRank to predict tennis player performances in future years on both hard and clay type surfaces. In particular, we train a model for the year 2008 and use it to predict match outcomes for the years 2009 through 2018.
 There two things we observe here :
-1. SpringRank does better than randomly guessing match outcomes  (blue vs black dotted lines)
-2. The ability to predict performance of players further down the years, gradually decreases and essentially behaves like a random model after a few years.
+1. The ability to predict performance of players further down the years, gradually decreases and essentially behaves like a random model after a few years.
+2. SpringRank does better than randomly guessing match outcomes  (red vs black dotted lines)
+
 
